@@ -1,14 +1,14 @@
 # 11_Categorical_data
-Experiment-11
-Title: Categorical Data Analysis using Python
-Arddra Soni
-25070123022
-ENTC A1
-Aim
-To perform categorical data analysis using Python by identifying categories, calculating frequency distributions, performing cross-tabulation, and visualizing categorical variables.
+# Experiment-11
+# Title: Categorical Data Analysis using Python
+# Arddra Soni
+# 25070123022
+# ENTC A1
+# Aim
+# To perform categorical data analysis using Python by identifying categories, calculating frequency distributions, performing cross-tabulation, and visualizing categorical variables.
 
-Theory
-1. Categorical Data
+## Theory
+## 1. Categorical Data
 Categorical data is a type of data that represents groups, labels, or categories instead of numerical values. These values describe qualities or characteristics and cannot be measured numerically.
 Examples:
 •	Gender (Male/Female)
@@ -17,8 +17,8 @@ Examples:
 •	Customer Type (New, Returning)
 Categorical data is widely used in business analytics, social sciences, marketing analysis, and survey data analysis.
 
-2. Types of Categorical Data
-Nominal Data
+## 2. Types of Categorical Data
+## Nominal Data
 Nominal data represents categories without any natural order.
 Examples:
 •	Department (IT, CSE, Mechanical)
@@ -27,15 +27,15 @@ Examples:
 Here, categories are only labels, and no ranking exists.
 
 
-Ordinal Data
+## Ordinal Data
 Ordinal data represents categories that have a meaningful order or ranking.
 Examples:
 •	Satisfaction Level (Poor, Average, Good, Excellent)
 •	Education Level (Diploma, Graduate, Postgraduate)
 Although there is an order, the difference between categories cannot be measured numerically.
 
-3. Importance of Categorical Data Analysis
-Categorical data analysis helps in:
+## 3. Importance of Categorical Data Analysis
+## Categorical data analysis helps in:
 •	Understanding distribution of categories
 •	Identifying relationships between variables
 •	Summarizing data for decision making
@@ -45,8 +45,8 @@ For example:
 •	Which payment method is preferred by customers?
 •	How customer type varies across cities?
 
-4. Common Operations in Categorical Data Analysis
-1. Frequency Count
+## 4. Common Operations in Categorical Data Analysis
+### 1. Frequency Count
 Counts the number of occurrences of each category.
 Example:
 Electronics → 3
@@ -58,14 +58,14 @@ value_counts()
 
 
 
-2. Unique Category Identification
+### 2. Unique Category Identification
 Used to find distinct categories present in a dataset.
 Example:
 UPI, Card, Cash
 In Python this is done using:
 unique()
 
-3. Cross-Tabulation
+### 3. Cross-Tabulation
 Cross-tabulation is used to analyze the relationship between two categorical variables.
 Example:
 Product Category	UPI	Card	Cash
@@ -75,7 +75,7 @@ This helps identify patterns between variables.
 In Python:
 pd.crosstab()
 
-4. Grouping of Data
+### 4. Grouping of Data
 Grouping helps summarize data based on categories.
 Example:
 Number of orders by product category.
@@ -83,10 +83,10 @@ In Python:
 groupby()
 
 
-5. Role of Python in Categorical Data Analysis
+### 5. Role of Python in Categorical Data Analysis
 Python provides powerful libraries for analyzing categorical data:
 Library	Purpose
 Pandas	Data manipulation and analysis
-Conclusion
+## Conclusion
 Categorical data analysis helps in understanding patterns, relationships, and distributions within qualitative data. Python libraries such as Pandas, Matplotlib, and Seaborn provide efficient tools to analyze and visualize categorical datasets.
 
